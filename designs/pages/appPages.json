@@ -4,5 +4,35 @@
         "componentName": "homeComponent",
         "isEntry": false,
         "createDate": "2020-06-13T11:50:45.113Z"
+    },
+    "3cff8101-3844-eb7d-7ae1-07c6d811e15e": {
+        "appPageName": "header",
+        "componentName": "headerComponent",
+        "isEntry": false,
+        "createDate": "2020-06-16T07:42:00.195Z"
+    },
+    "e90342b0-068d-a4c9-0886-63929d667ca6": {
+        "appPageName": "talentinformation",
+        "componentName": "talentinformationComponent",
+        "isEntry": false,
+        "createDate": "2020-06-16T09:22:44.317Z"
+    },
+    "95dce905-43a1-b3bd-96f4-1af629bd8bee": {
+        "appPageName": "talentinformation2",
+        "componentName": "talentinformation2Component",
+        "isEntry": false,
+        "createDate": "2020-06-16T12:56:06.626Z"
+    },
+    "f1a518c2-e0c0-fe4b-4030-fe989af4b7c5": {
+        "appPageName": "companyinfo",
+        "componentName": "companyinfoComponent",
+        "isEntry": false,
+        "createDate": "2020-06-16T16:18:32.168Z"
+    },
+    "9a391a0c-7c58-bac3-456d-05f649b514b6": {
+        "appPageName": "roles",
+        "componentName": "rolesComponent",
+        "isEntry": false,
+        "createDate": "2020-06-16T16:26:32.059Z"
     }
 }

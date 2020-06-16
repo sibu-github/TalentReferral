@@ -1,0 +1,14 @@
+{
+    "appPageId": "e90342b0-068d-a4c9-0886-63929d667ca6",
+    "appPageName": "talentinformation",
+    "componentName": "talentinformationComponent",
+    "selectorName": "bh-talentinformation",
+    "htmlFileName": "talentinformation.template.html",
+    "tsFileName": "talentinformation.component.ts",
+    "createDate": "2020-06-16T09:22:44.317Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,33 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div class="header">
+      {{locales.roles}}</div>
+  </div>
+  <div fxLayout="row wrap" class="row-header" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <mat-progress-bar class="bar" [mode]="&apos;determinate&apos;" value="100"></mat-progress-bar>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <form #form="ngForm" class="formcolumn" (ngSubmit)="talentForm(form)">
+      <div fxLayout="column wrap" style="padding:20px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <mat-form-field class="margin-bottom formcolumn" [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="recommendedroles" type="input" placeholder="{{locales.recommendedroles}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field class="margin-bottom" [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="recommendedjob" type="input" placeholder="{{locales.recommendedjob}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput ngModel matTextareaAutosize matAutosizeMinRows="5" maxlength="256" #comments name="comments" placeholder="{{locales.comments}}" required></textarea>
+        </mat-form-field>
+        <div fxLayout="row wrap" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false">
+          <mat-hint align="center">
+            {{comments.value.length}} / 256</mat-hint>
+        </div>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false"><button mat-button (click)="onBack()">
+          <mat-icon>keyboard_arrow_left</mat-icon>Back
+        </button><button mat-button type="submit"><img alt="continue" src="../../../assets/Web/Icons/back.png"></button></div>
+    </form>
+  </div>
+</div>

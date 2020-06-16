@@ -1,0 +1,38 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div class="header">
+      {{locales.talentinfo}}</div>
+  </div>
+  <div fxLayout="row wrap" class="row-header" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <mat-progress-bar class="bar" [mode]="&apos;determinate&apos;" value="50"></mat-progress-bar>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <form #form="ngForm" class="formcolumn" (ngSubmit)="talentForm(form)">
+      <div fxLayout="column wrap" style="padding:20px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="address" type="input" placeholder="{{locales.street}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="city" type="input" placeholder="{{locales.city}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="state" type="input" placeholder="{{locales.state}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="country" type="email" placeholder="{{locales.country}}" required ngModel>
+
+        </mat-form-field>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput name="postalcode" type="input" placeholder="{{locales.postalcode}}" required ngModel>
+
+        </mat-form-field>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false"><button mat-button (click)="onBack()">
+          <mat-icon>keyboard_arrow_left</mat-icon>Back
+        </button><button mat-button type="submit"><img alt="continue" src="../../../assets/Web/Icons/back.png"></button></div>
+    </form>
+  </div>
+</div>

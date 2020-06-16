@@ -2,5 +2,25 @@
     "localeId": "en",
     "localeName": "English",
     "isDefaultLanguage": true,
-    "properties": {}
+    "properties": {
+        "talentinfo": "Talent Information",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "phonenumber": "Phone Number",
+        "email": "Email Address",
+        "linkedin": "Linkedin",
+        "street": "Street Address",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "postalcode": "Postal Code",
+        "companyinfo": "Company Information",
+        "currentjob": "Current Job Title",
+        "companyname": "Company Name",
+        "function": "Function",
+        "roles": "Recommended Roles",
+        "recommendedroles": "Recommended Roles",
+        "recommendedjob": "Recommended Job Level",
+        "comments": "Comments"
+    }
 }

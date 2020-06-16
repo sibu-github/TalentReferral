@@ -1,0 +1,14 @@
+{
+    "appPageId": "9a391a0c-7c58-bac3-456d-05f649b514b6",
+    "appPageName": "roles",
+    "componentName": "rolesComponent",
+    "selectorName": "bh-roles",
+    "htmlFileName": "roles.template.html",
+    "tsFileName": "roles.component.ts",
+    "createDate": "2020-06-16T16:26:32.059Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

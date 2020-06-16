@@ -1,0 +1,14 @@
+{
+    "appPageId": "f1a518c2-e0c0-fe4b-4030-fe989af4b7c5",
+    "appPageName": "companyinfo",
+    "componentName": "companyinfoComponent",
+    "selectorName": "bh-companyinfo",
+    "htmlFileName": "companyinfo.template.html",
+    "tsFileName": "companyinfo.component.ts",
+    "createDate": "2020-06-16T16:18:32.168Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

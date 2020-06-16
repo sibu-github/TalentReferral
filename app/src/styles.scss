@@ -2,3 +2,51 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.header{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+padding-left: 20px;
+padding-top: 30px;
+color: #283552;
+}
+.bar{
+  border-radius:30px;
+  flex-basis:80%;
+  height:100px;
+ 
+}
+.mat-progress-bar-fill::after {
+    background-color: #5DC52F!important;
+}
+.row-header{
+     padding-left: 20px !important;   
+     padding-top: 14px !important;
+}
+.formcolumn{
+width:93%;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+letter-spacing: 0.5px;
+color: #A1A4B1;
+
+}
+.continue{
+background: #5EA73E;
+box-shadow: 0px 2.20909px 6.62727px rgba(0, 0, 0, 0.09);
+border-radius: 22.5px;
+transform: rotate(-180deg);
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}

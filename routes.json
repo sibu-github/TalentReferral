@@ -5,6 +5,22 @@
             "component": "homeComponent"
         },
         {
+            "path": "talent",
+            "component": "talentinformationComponent"
+        },
+        {
+            "path": "talent2",
+            "component": "talentinformation2Component"
+        },
+        {
+            "path": "companyinfo",
+            "component": "companyinfoComponent"
+        },
+        {
+            "path": "roles",
+            "component": "rolesComponent"
+        },
+        {
             "path": "''",
             "redirectTo": "/home",
             "pathMatch": "full",

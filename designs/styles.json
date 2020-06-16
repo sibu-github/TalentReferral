@@ -1,1 +1,11 @@
-{"classes":[]}
+{
+    "classes": [
+        "header",
+        "bar",
+        "mat-progress-bar-fill",
+        "row-header",
+        "formcolumn",
+        "continue",
+        "margin-bottom"
+    ]
+}
