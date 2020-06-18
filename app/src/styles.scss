@@ -2,3 +2,48 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.refferal_add{
+    background-color:rgb(94,167,62)!important;
+    color:white!important;
+    border-radius: 6em;
+
+}
+.success_logo{
+    padding-top: 3em;
+}
+.thankyou{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+}
+.refferal_message_class{
+   font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.5px;
+padding-left: 0.8em;
+padding-right: 0.8em;
+}
+.submitted_by{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.5px;
+padding-top: 1em;
+}

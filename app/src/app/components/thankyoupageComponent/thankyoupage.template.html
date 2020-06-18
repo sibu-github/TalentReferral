@@ -1,0 +1,52 @@
+<div fxLayout="column wrap" class="refferal_message_class" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="row wrap" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="row wrap" fxFlex="50" fxLayoutAlign="start start" [fxShow]="true" [fxHide]="false"><img imgSrc="Android/logo.png" style="padding:0.25em 0.25em;"></div>
+    <div fxLayout="row wrap" fxFlex="50" fxLayoutAlign="end end" [fxShow]="true" [fxHide]="false"><img imgSrc="Android/logout.png" style="padding:0.45em 0.45em;"></div>
+  </div>
+  <div fxLayout="column wrap" style="font-family: Poppins; font-style: normal; font-weight: 300; font-size: 1em; line-height: 2em; display: flex; align-items: center; text-align: center; letter-spacing: 0.05em; text-transform: capitalize;" fxLayoutAlign="start center" [fxShow]="true" [fxHide]="false"><img imgSrc="Android/Group29.png" class="success_logo">
+    <div fxLayout="column wrap" fxLayoutAlign="space-around center" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+        <div class="thankyou">
+          <h4>{{locales.thankyou}}</h4>
+        </div>
+      </div>
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="column wrap" fxLayoutAlign="space-evenly center" [fxShow]="true" [fxHide]="false">
+          <div style="    " class="refferal_message_class">
+            {{locales.refferalMessage}}</div>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" style="width: 100%; padding-bottom: 1em" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start center" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div class="submitted_by">
+              {{locales.submittedby}}
+
+              <div style="color: #283552;
+    padding-bottom: 1em;
+    padding-
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;">{{name}}</div>
+
+              <div style="font-size: 2em;font-weight: 600;">{{today}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><button mat-mini-fab class="refferal_add">
+      <mat-icon>add</mat-icon>
+    </button>
+    <p>
+      Wish Create New Referral?</p>
+    <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><img imgSrc="Android/message.png" style="padding-bottom:2em ;"></div>
+  </div>
+</div>

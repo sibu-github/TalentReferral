@@ -16,6 +16,8 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-thankyoupageComponent
+import { thankyoupageComponent } from '../components/thankyoupageComponent/thankyoupage.component';
 //CORE_REFERENCE_IMPORT-homeComponent
 import { homeComponent } from '../components/homeComponent/home.component';
 
@@ -53,6 +55,8 @@ export const appDeclarations = [
   NMapComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-thankyoupageComponent
+thankyoupageComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homeComponent
 homeComponent,
 
@@ -81,5 +85,5 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'home', component: homeComponent},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'home', component: homeComponent},{path: 'thankyou', component: thankyoupageComponent},{path: '', redirectTo: '/home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END
