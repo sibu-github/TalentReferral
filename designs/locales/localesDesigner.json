@@ -3,6 +3,11 @@
         "localeId": "en",
         "localeName": "English",
         "isDefaultLanguage": true,
-        "properties": {}
+        "properties": {
+            "thankyou": "Thank You",
+            "referalMessage": "",
+            "submittedby": "Submitted By",
+            "refferalMessage": "For reffering talent for ingredion. Human Resources Department will be notified of this information. We are all  in to build Ingredion next generation!"
+        }
     }
 }

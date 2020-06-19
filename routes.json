@@ -5,6 +5,10 @@
             "component": "homeComponent"
         },
         {
+            "path": "thankyou",
+            "component": "thankyoupageComponent"
+        },
+        {
             "path": "''",
             "redirectTo": "/home",
             "pathMatch": "full",

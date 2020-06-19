@@ -4,5 +4,11 @@
         "componentName": "homeComponent",
         "isEntry": false,
         "createDate": "2020-06-13T11:50:45.113Z"
+    },
+    "c74eac75-df1b-711b-976c-e03c9a4996c1": {
+        "appPageName": "thankyouPage",
+        "componentName": "thankyoupageComponent",
+        "isEntry": false,
+        "createDate": "2020-06-17T06:18:54.909Z"
     }
 }

@@ -1,0 +1,14 @@
+{
+    "appPageId": "c74eac75-df1b-711b-976c-e03c9a4996c1",
+    "appPageName": "thankyouPage",
+    "componentName": "thankyoupageComponent",
+    "selectorName": "bh-thankyoupage",
+    "htmlFileName": "thankyoupage.template.html",
+    "tsFileName": "thankyoupage.component.ts",
+    "createDate": "2020-06-17T06:18:54.909Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

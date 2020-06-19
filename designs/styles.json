@@ -1,1 +1,9 @@
-{"classes":[]}
+{
+    "classes": [
+        "refferal_add",
+        "success_logo",
+        "thankyou",
+        "refferal_message_class",
+        "submitted_by"
+    ]
+}
